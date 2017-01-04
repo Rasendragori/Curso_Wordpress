@@ -1,9 +1,50 @@
 <?php
-  register_nav_menus(array(
+	
+	//Activando el soporte paralos Sidebar
+	if (function_exists('register_sidebar')) {
+		   /**
+			* Creates a sidebar
+			* @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+			*/
+			//$args = array(
+			//	'name'          => __( 'Ultimas Entradas Footer'),
+			//	'id'            => 'unique-sidebar-id',
+			//	'description'   => '',
+			//	'class'         => '',
+			//	'before_widget' => '',
+			//	'after_widget'  => '',
+			//	'before_title'  => '',
+			//	'after_title'   => ''
+			//);
 
-    'principal' => 'Menú Principal',
+			//register_sidebar( $args );
 
-  ));
+			register_sidebar(array(
+				'name'=>'footer ultimas entradas'
+				));
+
+			register_sidebar(array(
+				'name'=>'footer ultimas categorias'
+				));
+		
+	};
+
+	//Activando soporte para las imagenes
+	if ( function_exists( 'add_theme_support' ) ) { 
+    add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions (cropped)
+
+    // additional image sizes
+    // delete the next line if you do not need additional image sizes
+    add_image_size( 'category-thumb', 374, 260, true );
+    add_image_size( 'category-full', 783, 290, true );
+    add_image_size( 'category-thumb-blog', 580, 272, true );
+	}
+
+	//Registrando un menú
+	register_nav_menus(array(
+		'principal' => 'Menú Principal',
+	));
 
     /**
 	 * Enqueue scripts

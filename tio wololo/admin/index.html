@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Ingreso al CMS">
+    <meta name="author" content="Rodrigo Ortiz">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Ingreso al CMS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/signin.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin">
+        <h4 class="form-signin-heading">Ingrese sus credenciales</h4>
+        <label for="txtUsuario" class="sr-only">Usuario</label>
+        <input type="text" id="txtUsuario" class="form-control" placeholder="Digite su usuario" required autofocus>
+        <label for="txtPassword" class="sr-only">Password</label>
+        <input type="password" id="txtPassword" class="form-control" placeholder="Digite su password" required>
+        <button id="process" class="btn btn-lg btn-primary btn-block" type="button">Entrar <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></button>
+        <br><br><div role="alert" class="alert alert-info" id="respuesta"></div>
+      </form>
+      
+    </div> 
+    <!-- /container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Progra IV | 02-2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!--Colocar los JS necesarios para agregar funcionalidad a nuestro formulario-->
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/sha512.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("#process").click(function(event){ //Agregamos un evento clic nuevo a nuestro boton procesar
+        event.preventDefault();
+        us = $("#txtUsuario").val();
+        pw = SHA512($("#txtPassword").val()); //Aqui utilizamos una funcion que se encuentra en nuestro archivo sha512.js
+
+        $.ajax({
+          method: 'post',
+          url: 'login.php', //Este archivo procesara la informacion que enviemos 
+          data: {usuario:us, clave:pw},
+          success: function(data) //Aca evaluamos que el envio de datos del formulario sea satisfactorio
+          {
+            $("#respuesta").html(data);
+            //Agregaremos aqui la validacion adicional
+            if(data=="Bienvenido")
+            {
+              setTimeout(function(){location.href='ini.php'}, 3000) //Colocamos un temporizador que redigirá nuestro ingreso a la pagina ini.php
+            }
+          }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fp",
+				"fpin"
+			],
+			[
+				"plantilla",
+				"plantillas"
+			],
+			[
+				"fo",
+				"fopen"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"con",
+				"contenido"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"list",
+				"list-group"
+			],
+			[
+				"plantill",
+				"plantilla"
+			],
+			[
+				"plant",
+				"plantillas"
+			],
+			[
+				"asse",
+				"assets"
+			],
+			[
+				"htm",
+				"html_entity_decode"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"crea",
+				"crearPagina"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"text",
+				"text-aling"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"sessi",
+				"session_destroy"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"pre",
+				"preg_replace"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"BM100",
+				"BM100414_numeroCarnet"
+			],
+			[
+				"ape",
+				"ape2"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"nom",
+				"nombre1"
+			],
+			[
+				"ip",
+				"ipModi"
+			],
+			[
+				"us",
+				"usuarioModi"
+			],
+			[
+				"num",
+				"numeroActual"
+			],
+			[
+				"nume",
+				"BM100414_numeroCarnet"
+			],
+			[
+				"B",
+				"BM100414_getOSName"
+			],
+			[
+				"BM",
+				"BM100414_getIP"
+			],
+			[
+				"fe",
+				"fechaCreacion"
+			],
+			[
+				"BM100414_",
+				"BM100414_insetarEmpleado"
+			],
+			[
+				"nu",
+				"NULL"
+			],
+			[
+				"apell",
+				"apellido1"
+			],
+			[
+				"Se",
+				"SELECT"
+			],
+			[
+				"a",
+				"apellido2"
+			],
+			[
+				"SE",
+				"SELECT"
+			],
+			[
+				"DE",
+				"DEFAULT"
+			],
+			[
+				"D",
+				"DECLARE"
+			],
+			[
+				"F",
+				"FROM"
+			],
+			[
+				"bm",
+				"BM100414_numeroCarnet"
+			],
+			[
+				"bm1",
+				"BM100414_getMaxNumeroCanet"
+			],
+			[
+				"NU",
+				"numeroActual"
+			],
+			[
+				"apellido",
+				"apellido2"
+			],
+			[
+				"no",
+				"nomrbe2"
+			],
+			[
+				"NOMRE",
+				"nombre1"
+			],
+			[
+				"APE",
+				"apellido2"
+			],
+			[
+				"APEL",
+				"apellido1"
+			],
+			[
+				"NOMB",
+				"nombre2"
+			],
+			[
+				"NOMBRE",
+				"nombre1"
+			],
+			[
+				"apellid",
+				"apellido1"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"inmu",
+				"inmuebles"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Install Package Control"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/halcyonic/page.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/halcyonic/index.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/halcyonic/header.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/halcyonic/functions.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/halcyonic/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/halcyonic/page.php",
+		"/C/xampp/htdocs/wordpress/index.php",
+		"/C/Documents and Settings/usuario/Escritorio/JUEGOS/melee-light/meleelight/README.md",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/aprendiendoando/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/aprendiendoando/style.css",
+		"/C/Documents and Settings/usuario/Escritorio/PROYECTOS/git_projects/Pruebas/clave_curso_wordpress.txt",
+		"/C/xampp/htdocs/CMS/admin/config.php",
+		"/C/xampp/htdocs/CMS/admin/conexion.php",
+		"/C/xampp/htdocs/CMS/config.php",
+		"/C/xampp/htdocs/CMS/index.html",
+		"/C/xampp/htdocs/BM100414LAB3/admin/config.php",
+		"/C/xampp/htdocs/BM100414LAB3/admin/conexion.php",
+		"/C/xampp/htdocs/BM100414LAB3/admin/index.html",
+		"/C/xampp/htdocs/BM100414LAB3/admin/login.php",
+		"/C/xampp/htdocs/BM100414LAB3/admin/ini.php",
+		"/C/xampp/htdocs/BM100414LAB3/admin/lib.php",
+		"/C/xampp/htdocs/BM100414LAB3/admin/plantillas/cmsa.html",
+		"/C/xampp/htdocs/BM100414 - incompleto_1/index.html",
+		"/C/xampp/htdocs/laboratorio3/LABO3/plantillas/cmsa.html",
+		"/C/xampp/htdocs/BM100414/plantillas/cmsa.html",
+		"/C/xampp/htdocs/BM100414LAB3/admin/lab3.sql",
+		"/C/xampp/htdocs/BM100414/admin/lib.php",
+		"/C/xampp/htdocs/BM100414/admin/ini.php",
+		"/C/xampp/htdocs/BM100414/admin/login.php",
+		"/C/xampp/htdocs/BM100414/admin/index.html",
+		"/C/xampp/htdocs/laboratorio3/LABO3/admin/lab3.sql",
+		"/C/xampp/htdocs/LAB3/admin/lib.php",
+		"/C/xampp/htdocs/LAB3/admin/ini.php",
+		"/C/xampp/htdocs/LAB3/admin/login.php",
+		"/C/xampp/htdocs/LAB3/admin/conexion.php",
+		"/C/xampp/htdocs/LAB3/admin/config.php",
+		"/C/xampp/htdocs/LAB3/admin/index.html",
+		"/C/xampp/htdocs/LAB3/index.html",
+		"/C/xampp/htdocs/login/login.php",
+		"/C/xampp/htdocs/login/cms_od100114.sql",
+		"/C/xampp/htdocs/LAB3/plantillas/cmsa.html",
+		"/C/xampp/htdocs/LAB3/admin/lab3.sql",
+		"/C/xampp/htdocs/LABO3/admin/index.html",
+		"/C/xampp/htdocs/LABO3/plantillas/cmsa.html",
+		"/C/xampp/htdocs/LABO3/admin/lib.php",
+		"/C/Documents and Settings/usuario/Escritorio/index.html",
+		"/C/xampp/htdocs/LAB3 - incompleto/admin/lab3.sql",
+		"/C/xampp/htdocs/LAB3/admin/cms_bm100414.sql",
+		"/C/Documents and Settings/usuario/Escritorio/Desarrollo/mi nombre y carnet",
+		"/C/xampp/htdocs/LAB3/admin/plantillas/cmsa.html",
+		"/C/xampp/htdocs/BM100414/admin/conexion.php",
+		"/C/xampp/htdocs/BM100414/admin/config.php",
+		"/C/xampp/htdocs/BM100414/conexion.php",
+		"/C/xampp/htdocs/BM100414/lib.php",
+		"/C/xampp/htdocs/BM100414/assets/plantillas/cmsa.html",
+		"/C/xampp/htdocs/BM100414/login.php",
+		"/C/xampp/htdocs/BM100414/index.html",
+		"/C/xampp/htdocs/BM100414/jqueryFileTree.php",
+		"/C/xampp/htdocs/BM100414/ini.php",
+		"/C/xampp/htdocs/BM100414/config.php",
+		"/C/xampp/htdocs/BM100414/cms_bm100414.sql",
+		"/C/Documents and Settings/usuario/Mis documentos/Downloads/Northwind.MySQL5 (1).sql",
+		"/C/xampp/htdocs/BM100414/assets/css/style.css",
+		"/C/xampp/htdocs/BM100414/assets/font-awesome/css/font-awesome.css",
+		"/C/xampp/htdocs/BM100414/assets/font-awesome/css/font-awesome.min.css",
+		"/C/xampp/htdocs/BM100414/cmsa.html",
+		"/D/cms_BM100414.sql",
+		"/C/xampp/htdocs/login/cms_bm100414.sql",
+		"/C/xampp/htdocs/login/index.html",
+		"/C/Documents and Settings/usuario/Mis documentos/practica_semana11_AdministracionBD_BM100414.sql",
+		"/C/xampp/htdocs/startbootstrap-sb-admin-2-gh-pages/pages/login.html",
+		"/C/xampp/htdocs/startbootstrap-sb-admin-2-gh-pages/pages/login.php",
+		"/C/Documents and Settings/usuario/Escritorio/PROYECTOS/BD/BM100414.sql",
+		"/C/Documents and Settings/usuario/Mis documentos/practica_8_y_9_AdministracionBD.sql",
+		"/C/Documents and Settings/usuario/Mis documentos/practica_7_AdministracionBD.sql",
+		"/C/Documents and Settings/usuario/Mis documentos/proyecto.sql",
+		"/C/Documents and Settings/usuario/Mis documentos/Downloads/arrays_extra.php",
+		"/C/Documents and Settings/usuario/Escritorio/Notas/arrays.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vistaprevia",
+			"codigo",
+			"?>",
+			"80",
+			"alert",
+			"top",
+			">  ",
+			"a>",
+			"BM100414_insetar",
+			"=)",
+			"usuario",
+			"user"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
