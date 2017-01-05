@@ -1,12 +1,11 @@
 <!doctype html>
-
 <html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="template para Ciudad Inteligente" content="Tema">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ciudad Inteligente</title>
+    <title><?php bloginfo('name'); ?></title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -45,11 +44,8 @@
       z-index: 900;
     }
     </style>
-    <?php wp_head(); ?>
   </head>
-
-
-<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
@@ -60,33 +56,24 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <div class="mdl-layout__tab">
           <?php
-
-             /**
-            * Displays a navigation menu
-            * @param array $args Arguments
-            */
-            $args = array(
-              'theme_location' => 'principal',
-              'container' => 'div',
-              'container_id' => 'div',
-            );
-
-            wp_nav_menu( $args );
-
+               /**
+              * Displays a navigation menu
+              * @param array $args Arguments
+              */
+              $args = array(
+                'theme_location' => 'principal',
+                'container' => 'div',
+                'container_id' => 'div'
+              );
+            
+              wp_nav_menu( $args );
           ?>
-
-          </div>
-          <!-- <a href="#overview" class="mdl-layout__tab">Overview</a>
+          <!-- <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
           <a href="#features" class="mdl-layout__tab">Features</a>
           <a href="#features" class="mdl-layout__tab">Details</a>
           <a href="#features" class="mdl-layout__tab">Technology</a>
           <a href="#features" class="mdl-layout__tab">FAQ</a> -->
 
-          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
-            <i class="material-icons" role="presentation">add</i>
-            <span class="visuallyhidden">Add</span>
-          </button>
         </div>
       </header>

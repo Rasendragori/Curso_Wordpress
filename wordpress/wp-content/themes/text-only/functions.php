@@ -17,6 +17,7 @@ register_nav_menus(array(
 	function misrecursos() {
 		wp_enqueue_style("style",get_stylesheet_uri());
 		wp_enqueue_script( 'material', get_template_directory_uri() . '/assets/material.js', array( 'jquery' ), '1.0.0', true);
+		wp_enqueue_script( 'material', get_template_directory_uri() . '/assets/material.min.js', array( 'jquery' ), '1.0.6', true);
 	}
 
 	add_action( 'wp_enqueue_scripts', 'misrecursos' );
