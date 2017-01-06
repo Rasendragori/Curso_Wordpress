@@ -56,6 +56,7 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+
           <?php
                /**
               * Displays a navigation menu
@@ -63,13 +64,15 @@
               */
               $args = array(
                 'theme_location' => 'principal',
-                'container' => 'ul',
+                'container' => 'div',
                 'container_id' => 'div',
-                'container_class' => 'layout__tab',
-                'items_wrap' => '<a>%3$s</a>'
+                'before' => '<a href="#" class="mdl-layout__tab is-active"><ul>',
+                'after'=> '</ul></a>',
+                'items_wrap' => '%3$s'
               );
             wp_nav_menu( $args );
           ?>
+
           
           <!-- <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
           <a href="#features" class="mdl-layout__tab">Features</a>
