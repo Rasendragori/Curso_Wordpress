@@ -7,8 +7,8 @@
 
     // additional image sizes
     // delete the next line if you do not need additional image sizes
-    add_image_size( 'category-thumb', 860, 288.8, true );
-    add_image_size( 'category-full', 783, 290, true );
+    add_image_size( 'imagen-miniatura', 200, 200, true );
+    add_image_size( 'imagen-full', 350, 350, true );
     add_image_size( 'category-thumb-blog', 580, 272, true );
 	}
 

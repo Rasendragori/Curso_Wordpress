@@ -50,7 +50,7 @@
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <div>
           <h3><?php bloginfo('name'); ?></h3>
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
@@ -63,12 +63,14 @@
               */
               $args = array(
                 'theme_location' => 'principal',
-                'container' => 'div',
-                'container_id' => 'div'
+                'container' => 'ul',
+                'container_id' => 'div',
+                'container_class' => 'layout__tab',
+                'items_wrap' => '<a>%3$s</a>'
               );
-            
-              wp_nav_menu( $args );
+            wp_nav_menu( $args );
           ?>
+          
           <!-- <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
           <a href="#features" class="mdl-layout__tab">Features</a>
           <a href="#features" class="mdl-layout__tab">Details</a>
