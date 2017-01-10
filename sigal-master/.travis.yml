@@ -1,0 +1,32 @@
+language: python
+cache: pip
+env:
+  global:
+    - PILLOW="Pillow"
+
+matrix:
+  include:
+    - python: 2.7
+    - python: 3.4
+      env: PILLOW="Pillow==2.9.0"
+    - python: 3.5
+      env: PILLOW="Pillow==3.0.0"
+    - python: 3.6
+
+
+before_install:
+    # Dependencies to build PIL
+    - sudo apt-get update -qq
+    - sudo apt-get install -qq ubuntu-restricted-extras
+    - sudo apt-get install -qq libfreetype6-dev libjpeg8-dev zlib1g-dev ffmpeg
+    - sudo locale-gen fr_FR.UTF-8
+    - ffmpeg -version
+install:
+    - pip install -q $PILLOW
+    - pip install pytest pytest-cov coveralls
+    - pip install .
+script: py.test -sv --cov sigal --cov-report term-missing tests/
+after_success:
+    coveralls
+notifications:
+    irc: "chat.freenode.net#sigal"

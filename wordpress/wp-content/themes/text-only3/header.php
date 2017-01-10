@@ -55,7 +55,7 @@
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        <div class="mdl-layout__tab mdl-js-ripple-effect mdl-color--primary-dark">
 
           <?php
                /**
@@ -66,15 +66,16 @@
                 'theme_location' => 'principal',
                 'container' => 'div',
                 'container_id' => 'div',
-                'before' => '<a href="#" class="mdl-layout__tab is-active"><ul>',
-                'after'=> '</ul></a>',
+                'container_class' => 'mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark',
+                'before' => '<a class="mdl-layout__tab is-active">',
+                'after'=> '</a>',
                 'items_wrap' => '%3$s'
               );
             wp_nav_menu( $args );
           ?>
-
           
-          <!-- <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+          <!--
+                 <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
           <a href="#features" class="mdl-layout__tab">Features</a>
           <a href="#features" class="mdl-layout__tab">Details</a>
           <a href="#features" class="mdl-layout__tab">Technology</a>

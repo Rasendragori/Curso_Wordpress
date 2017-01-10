@@ -1,0 +1,16 @@
+*.egg-info
+*~
+*.pyc
+*_flymake
+.coverage
+.ropeproject/
+.tox/
+nose.cfg
+MANIFEST
+_build/
+build/
+dist/
+docs/_build
+htmlcov/
+output/
+.DS_Store

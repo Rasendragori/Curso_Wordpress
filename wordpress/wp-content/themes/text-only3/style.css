@@ -41,6 +41,7 @@ html, body {
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab {
   height: 64px;
   line-height: 64px;
+  color: white;
 }
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
   background-color: white;

@@ -1,0 +1,245 @@
+/**
+ * 
+ * PHP versions 3, 4 and 5
+ *
+ * LICENSE:
+ * 
+ * This file is part of PhotoLight.
+ *
+ * PhotoLight is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * PhotoLight is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with PhotoLight.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @category  Website
+ * @package   Photolight
+ * @author    Thibaud Rohmer <thibaud.rohmer@gmail.com>
+ * @copyright 2011 Thibaud Rohmer
+ * @license   http://www.gnu.org/licenses/
+ * @link      http://github.com/thibaud-rohmer/PhotoLight
+ */
+
+*{
+	border: 	0;
+	margin: 	0;
+	padding:	0;
+}
+
+a,a:visited{
+	color:		white;
+	text-decoration:	none;
+}
+
+body{
+	position:		relative;
+	background:		#151515;
+	font-family: 	'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 		12px;
+}
+
+#err{
+	margin: 	auto;
+	width:  	200px;
+	padding:	5px;
+	text-align: center;
+	background:	red;
+	color:		white;
+}
+
+#loading{
+	display:	none;
+	position:	fixed;
+	padding:	50px 100px 50px 100px;
+	border:			1px solid white;
+	background:	#333;
+	color:		white;
+	top:		100px;
+	left:		40%;
+}
+
+.menu_title{
+	margin:			0;
+	padding:		2px;
+	border:			1px solid black;
+	background:		#444;
+	color:			white;
+	text-transform:	uppercase;
+	font-size: 		11px;
+	font-weight: 	bold;
+}
+
+.menu_item a, 
+.menu_item a:visited{
+	color:		#bbb;
+	font-style:	none;
+	text-decoration:	none;	
+}
+
+.menu_item
+{
+	padding:	2px;
+	margin:		5px;
+}
+
+.menu_item:hover
+{
+	background:	#666;
+}
+
+.menu_item:hover a,
+.menu_item:hover a:visited{
+	color:		white;
+}
+
+.content_title{
+	margin:		auto;
+	padding:	20px;
+}
+
+.content_title,
+.content_title a,
+.content_title a:visited{
+	font-size:			30px;
+	font-style: 		italic;
+	color:				white;
+}
+
+.content_title a:hover{
+	text-decoration:	underline;
+}
+
+.thumb {
+	text-align: center;
+	position:	relative;
+}
+
+
+.thumb img{
+	max-width:	90%;
+	max-height:	90%;
+	border:		2px solid black;
+}
+
+.thumb:hover img{
+	border-color:		yellow;
+	cursor:		pointer;
+}
+
+#breadcrumbs{
+	background:	black;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	-webkit-box-shadow: rgb(0, 0, 0) 0px 0px 8px 2px;
+	box-shadow: 0 0 8px black;
+	z-index:100;
+}
+
+
+#content{
+	margin-top:	80px;
+	padding:	20px;
+	overflow:	auto;
+}
+
+#menu{
+	visibility:	hidden;
+	position:	absolute;
+	left:		0px;
+	width:		200px;
+	top:		0px;
+	bottom:		0px;
+	bottom:		0;
+	background:	#333;
+	overflow: 	auto;
+}
+
+#dirs, #thumbs{
+	text-align:	center;
+	margin:		auto;
+}
+
+#viewer{
+	display:	none;
+	position:	fixed;
+	top:		150px;
+	left:		0;
+	right:		0;
+	text-align:	center;
+	height:		50%;
+}
+
+#viewer img{
+	max-height: 100%;
+	max-width:	80%;
+	border:	1px solid black;
+	-webkit-box-shadow: rgb(0, 0, 0) 0px 0px 8px 2px;
+	box-shadow: 0 0 8px black;
+}
+
+.thumb{
+	display:	inline-block;
+	width : 	250px;
+	height:		160px;
+	text-align:	center;
+	margin:		0px 1px 10px 1px;
+}
+
+.thumb img{ 
+	-webkit-box-shadow: rgb(0, 0, 0) 0px 0px 8px 2px;
+	box-shadow: 0 0 8px black;
+}
+
+.folder{
+	display: inline-block;
+	position: relative;
+	width:	300px;
+	height:	160px;
+	background:	blue;
+	margin:	20px;
+	-webkit-box-shadow: rgb(0, 0, 0) 0px 0px 8px 2px;
+	box-shadow: 0 0 8px black;
+	background-size: contain;
+	cursor: pointer;
+	border:	2px solid black;
+}
+
+.folder:hover{
+	border: 2px solid rgb(80,140,200);
+}
+
+.folder .title{
+	position:	absolute;
+	bottom:		0;
+	left:		0;
+	right:		0;
+	padding:	3px;
+	background:	rgba(0,0,0,0.5);
+	text-align:	center;
+}
+
+.folder .new{
+	position:	absolute;
+	top:		0px;
+	right:		0px;
+	padding:	0px;
+	width: 		0px;
+	height: 	0px;
+	border-style: solid;
+	border-width: 0 50px 50px 0;
+	border-color: transparent rgba(255,255,57,0.4) transparent transparent;
+	text-align:	right;
+}
+
+.thumb.new a img{
+	border-color:	rgb(255,255,57);
+}
